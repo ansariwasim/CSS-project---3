@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar-container{
+display: flex;
+background-color: aquamarine;
+color: rgb(175, 162, 162);
+}
+
+.grow-list ul{
+    display: flex;
+font-family: 'Roboto', sans-serif;
+}
+
+.grow-list ul li{
+    text-decoration: none;
+    padding: 0 5px ;
+    display: flex;
+}
+
+li:nth-child(1){
+    color: black;
+    font-weight: 600;
+}
+
+.grow-list{
+    position: absolute;
+    left: 165px;
+    top: 25px;
+}
+
+.logo{
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    top: 18px;
+}
+
+
+.button-group{
+    position: absolute;
+    top: 11px;
+    right:55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-button{
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    height:32px ;
+    width: 90px;
+    border-radius: 7px;
+
+}
+
+
+/* banner */
+
+.banner-container{
+    display: flex;
+
+}
+
+
+/* left banner */
+
+.left-text{
+    
+    position: absolute;
+    top: 220px;
+    left: 22px;
+    width: 600px;
+}
+
+
+/* Right design */
+.main-dign{
+    height: 550px;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+}
+
+.heading-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 95px;
+    position: absolute;
+    top: -99px;
+    left: 24px;
+}
+
+span{
+    color: blue;
+    
+}
+
+
+
+.second{
+position: absolute;
+top: 94px;
+}
+
+.third{
+position: absolute;
+top: 190px;
+}
+
+
+ .pra-bu{
+    position: relative;
+    top: 220px;
+    left: 26px;
+    
+} 
+  
+
+/* paragraph */
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(109, 100, 100);
+}
+
+
+/* down button */
+.btn{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    width: 150px;
+    height: 38px;
+    font-family: 'Roboto', sans-serif;
+}
